@@ -6,7 +6,7 @@ class Cat
     @name = name
   end
 
-  def meow
-    @meow
+  def meow(meow)
+    puts "meow!"
   end
 end
