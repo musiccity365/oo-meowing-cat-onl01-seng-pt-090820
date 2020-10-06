@@ -1,12 +1,7 @@
 class Cat
   attr_accessor :name
-  attr_reader :meow
 
-  def initialize(name)
-    @name = name
-  end
-
-  def meow(meow)
+  def meow
     puts "meow!"
   end
 end
